@@ -9,13 +9,7 @@ import {
 } from 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBxjxOfpm7wbkW-ucTK4PVIG-yIi6RZ8T4",
-    authDomain: "ai-chat-2-97136.firebaseapp.com",
-    projectId: "ai-chat-2-97136",
-    storageBucket: "ai-chat-2-97136.appspot.com",
-    messagingSenderId: "254616921605",
-    appId: "1:254616921605:web:b90f2c20b313e6acf7de6c",
-    measurementId: "G-NTRH4F8EGL"
+   
 };
 
 const app = initializeApp(firebaseConfig);
@@ -39,7 +33,7 @@ const server = http.createServer(async (req, res) => {
 
 
     const configuration = new Configuration({
-        apiKey: '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',
+        apiKey: '',
     });
     const openai = new OpenAIApi(configuration);
 
